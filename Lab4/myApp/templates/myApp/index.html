@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background: #031a36;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        div{
+            background-color: #002d62;
+            width: 500px;
+            margin: 150px auto;
+            padding: 0 50px;
+            height: 300px;
+            border-radius: 8px;
+        }
+
+        h1{
+            padding-top: 40px;
+            color: rgb(255, 255, 255);
+        }
+
+        P{
+            margin-top: 45px;
+            color: rgb(242, 239, 239);
+            font-size: 26px;
+            text-align: center;
+        }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+</head>
+<body>
+        <div>
+            <h1>Tax Calculator:</h1>
+            <p>Price before tax: {{num}}</p>
+            <p>Total after {{taxRate}}% tax: {{total}}</p>
+        </div>
+</body>
+</html>
